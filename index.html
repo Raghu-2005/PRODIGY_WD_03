@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Tic Tac Toe Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div>
+      <h1 class="gamePage">Tic Tac Toe game | XO game</h1>
+      <div id="who-win" class="popup hide">
+        <p id="win-message"></p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <button class="button-option" data-row="1" data-column="1" data-priority="1"></button>
+        <button class="button-option" data-row="1" data-column="2" data-priority="1"></button>
+        <button class="button-option" data-row="1" data-column="3" data-priority="1"></button>
+        <button class="button-option" data-row="2" data-column="1" data-priority="1"></button>
+        <button class="button-option" data-row="2" data-column="2" data-priority="1"></button>
+        <button class="button-option" data-row="2" data-column="3" data-priority="1"></button>
+        <button class="button-option" data-row="3" data-column="1" data-priority="1"></button>
+        <button class="button-option" data-row="3" data-column="2" data-priority="1"></button>
+        <button class="button-option" data-row="3" data-column="3" data-priority="1"></button>
+      </div>
+      <div class="popup choose-letter">
+        <p id="message">Play with</p>
+        <div class="letter-buttons">
+          <button class="letter-button">X</button>
+          <button class="letter-button">O</button>
+        </div>
+      </div>
+      <button id="restart">Restart the Game</button>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
